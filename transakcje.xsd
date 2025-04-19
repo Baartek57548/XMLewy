@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  
+  <!-- Root element -->
+  <xs:element name="transakcje">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="transakcja" type="transakcjaType" minOccurs="0" maxOccurs="unbounded"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  
+  <!-- Transaction type definition -->
+  <xs:complexType name="transakcjaType">
+    <xs:attribute name="lp" type="xs:positiveInteger" use="required"/>
+    <xs:attribute name="nazwa" use="required">
+      <xs:simpleType>
+        <xs:restriction base="xs:string">
+          <xs:enumeration value="wpłata"/>
+          <xs:enumeration value="odsetki"/>
+          <xs:enumeration value="przelew"/>
+          <xs:enumeration value="korekta"/>
+        </xs:restriction>
+      </xs:simpleType>
+    </xs:attribute>
+    <xs:attribute name="kwota" use="required">
+      <xs:simpleType>
+        <xs:restriction base="xs:decimal">
+          <xs:minInclusive value="0"/>
+          <xs:fractionDigits value="2"/>
+        </xs:restriction>
+      </xs:simpleType>
+    </xs:attribute>
+    <xs:attribute name="waluta" use="required">
+      <xs:simpleType>
+        <xs:restriction base="xs:string">
+          <xs:enumeration value="PLN"/>
+          <xs:enumeration value="EUR"/>
+        </xs:restriction>
+      </xs:simpleType>
+    </xs:attribute>
+    <xs:attribute name="wykonawca" type="xs:string" use="optional"/>
+  </xs:complexType>
+  
+</xs:schema>

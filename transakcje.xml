@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="transakcje.xslt"?>
+<transakcje xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="transakcje.xsd">
+  <transakcja lp="1" nazwa="wpłata" kwota="1000.50" waluta="PLN" wykonawca="Adam A."/>
+  <transakcja lp="2" nazwa="odsetki" kwota="20.00" waluta="PLN"/>
+  <transakcja lp="3" nazwa="wpłata" kwota="250.00" waluta="PLN" wykonawca="Jan J."/>
+  <transakcja lp="4" nazwa="przelew" kwota="1234.50" waluta="EUR" wykonawca="Jan J."/>
+  <transakcja lp="5" nazwa="przelew" kwota="2222.22" waluta="EUR" wykonawca="Ewa B."/>
+  <transakcja lp="6" nazwa="przelew" kwota="444.00" waluta="EUR" wykonawca="Adam A."/>
+  <transakcja lp="7" nazwa="korekta" kwota="20.50" waluta="PLN" wykonawca="Adam A."/>
+  <transakcja lp="8" nazwa="odsetki" kwota="10.00" waluta="EUR"/>
+  <transakcja lp="9" nazwa="wpłata" kwota="2250.50" waluta="EUR" wykonawca="Jan J."/>
+  <transakcja lp="10" nazwa="przelew" kwota="4567.00" waluta="PLN" wykonawca="Ewa B."/>
+  <transakcja lp="11" nazwa="wpłata" kwota="500.00" waluta="PLN" wykonawca="Adam A."/>
+  <transakcja lp="12" nazwa="wpłata" kwota="15000.00" waluta="EUR" wykonawca="Jan J."/>
+  <transakcja lp="13" nazwa="przelew" kwota="100.00" waluta="PLN" wykonawca="Ewa B."/>
+  <transakcja lp="14" nazwa="korekta" kwota="40.50" waluta="EUR" wykonawca="Adam A."/>
+  <transakcja lp="15" nazwa="wpłata" kwota="900.00" waluta="EUR" wykonawca="Jan J."/>
+  <transakcja lp="16" nazwa="wpłata" kwota="100.00" waluta="EUR" wykonawca="Jan J."/>
+  <transakcja lp="17" nazwa="przelew" kwota="100.00" waluta="PLN" wykonawca="Ewa B."/>
+  <transakcja lp="18" nazwa="przelew" kwota="100.00" waluta="PLN" wykonawca="Ewa B."/>
+  <transakcja lp="19" nazwa="korekta" kwota="40.50" waluta="EUR" wykonawca="Adam A."/>
+  <transakcja lp="20" nazwa="wpłata" kwota="900.00" waluta="EUR" wykonawca="Jan J."/>
+</transakcje>
