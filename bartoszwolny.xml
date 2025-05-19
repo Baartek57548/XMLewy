@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-stylesheet type="text/xsl" href="transakcje.xsl"?>
-<transakcje xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="transakcje.xsd">
+<?xml-stylesheet type="text/xsl" href="bartoszwolny.xsl"?>
+<transakcje xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="bartoszwolny.xsd">
   <transakcja lp="1" nazwa="wpłata" kwota="1000.50" waluta="PLN" wykonawca="Adam A."/>
   <transakcja lp="2" nazwa="odsetki" kwota="20.00" waluta="PLN"/>
   <transakcja lp="3" nazwa="wpłata" kwota="250.00" waluta="PLN" wykonawca="Jan J."/>
